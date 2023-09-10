@@ -22,8 +22,8 @@ for i in range(1, 9):
     top = (dest_size[1] - new_size[1]) // 2
     img = add_margin(img, top, left, (0, 0, 0, 0))
 
-    # remove alpha
-    img = img.convert('RGB')
+    # # remove alpha
+    # img = img.convert('RGB')
 
     print(img.size)
     # Save
