@@ -21,4 +21,4 @@ def gen_variations(fname, num_variations = 1):
 
 if __name__ == "__main__":
     for i in range(1, 9):
-        gen_variations("512/bloodsplatter" + str(i) + ".png", 4)
+        gen_variations("512/bloodsplatter" + str(i) + ".png", 8)
